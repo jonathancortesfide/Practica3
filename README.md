@@ -1,5 +1,8 @@
 # Práctica Grupal - Caso Práctico #1
 
+>.[tip].
+>Aca tienes un consejo
+
 ## Universidad Fidélitas
 **Bachillerato en Ingeniería en Sistemas de Computación**  
 **Curso:** SC-403 Desarrollo Web y Patrones
