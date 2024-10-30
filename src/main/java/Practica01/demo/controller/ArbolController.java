@@ -52,7 +52,7 @@ public class ArbolController {
         return "redirect:/arbol/listado";
     }
 
-    @GetMapping("/eliminar/{idArbol}")
+    @GetMapping("/eliminar/{id}")
     public String arbolEliminar(Arbol arbol) {
         arbolService.delete(arbol);
         return "redirect:/arbol/listado";
