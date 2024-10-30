@@ -3,7 +3,7 @@ package Practica01.service;
 import Practica01.demo.domain.Arbol;
 import java.util.List;
 
-public interface ArbolService {
+public interface ArbolService{
     
     // Se obtiene un listado de arboles en un List
     public List<Arbol> getArboles();

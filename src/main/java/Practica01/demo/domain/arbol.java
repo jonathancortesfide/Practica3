@@ -32,8 +32,6 @@ public class Arbol implements Serializable {
     }
     
       // Getter para el atributo nombre
-    public long getIdArbol() {
-        return this.id;
-    }
+    
     
 }

@@ -24,7 +24,7 @@ public class ArbolServiceImpl implements ArbolService {
     @Override
     @Transactional(readOnly = true)
     public Arbol getArbol(Arbol arbol) {
-        return ArbolDao.findById(arbol.getIdArbol()).orElse(null);
+        return ArbolDao.findById(arbol.getId()).orElse(null);
     }
 
     @Override
