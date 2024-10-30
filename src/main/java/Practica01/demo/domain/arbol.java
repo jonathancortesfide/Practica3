@@ -24,6 +24,8 @@ public class Arbol implements Serializable {
     public Arbol() {
     }
 
+
+
     public Arbol(String nombre_comun,String tipo_flor,int dureza_madera, float altura ) {
         this.nombre_comun = nombre_comun; 
         this.tipo_flor = tipo_flor;
@@ -31,7 +33,7 @@ public class Arbol implements Serializable {
         this.altura = altura;
     }
     
-      // Getter para el atributo nombre
+      
     
     
 }
