@@ -58,6 +58,7 @@ public class CategoriaController {
         return "redirect:/categoria/listado";
     }
 
+
     @GetMapping("/modificar/{idCategoria}")
     public String categoriaModificar(Arbol categoria, Model model) {
         categoria = categoriaService.getCategoria(categoria);
