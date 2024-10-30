@@ -1,6 +1,6 @@
 # Práctica Grupal - Caso Práctico #1
 
->.[tip].
+>.[!TIP].
 >Aca tienes un consejo
 
 ## Universidad Fidélitas
